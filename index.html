@@ -1,12 +1,13 @@
 <!doctype html>
 <!-- 
+    TextWar-Web
     Author: Lym12321
     @CopyRight TextWar Developing Studio
     Made By Mdui.
 -->
 <html>
     <head>
-        <title>TextWar</title>
+        <title>Home-TextWar</title>
         <!-- 自适应 加上吧 -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- 引入MDUI -->
@@ -16,10 +17,10 @@
 
     <body class="mdui-theme-primary-indigo mdui-drawer-body-left">    <!-- 主题色indigo -->
 
-        <div class="mdui-toolbar mdui-color-theme mdui-container">  <!-- 工具栏 -->
+        <div class="mdui-toolbar mdui-color-theme mdui-container-fluid">  <!-- 工具栏 -->
             <!-- 工具栏左侧start -->
             <button id="menu" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></button>
-            <span>TextWar</span>
+            <a mdui-dialog="{target: '#dhk'}"><span>TextWar</span></a>
             <!-- 工具栏左侧end -->
 
             <div class="mdui-toolbar-spacer"></div>
@@ -36,8 +37,28 @@
             <br>
             <center><img width="150" height="50" src="https://s1.ax1x.com/2020/04/04/G07J9P.png"></center>
             <ul class="mdui-list">
+                <!-- icon优化了兼容性 -->
+                <a href="#">
+                    <li class="mdui-list-item mdui-ripple">
+                        <i class="mdui-list-item-icon mdui-icon material-icons">&#xe88a;</i>
+                        <div class="mdui-list-item-content">Home</div>
+                    </li>
+                </a>
+
+                <a href="plugin.html">
+                    <li class="mdui-list-item mdui-ripple">
+                        <i class="mdui-list-item-icon mdui-icon material-icons">&#xe169;</i>
+                        <div class="mdui-list-item-content">Plugin</div>
+                    </li>
+                </a>
+
+                <a href="about.html">
+                    <li class="mdui-list-item mdui-ripple">
+                        <i class="mdui-list-item-icon mdui-icon material-icons">&#xe88e;</i>
+                        <div class="mdui-list-item-content">About</div>
+                    </li>
+                </a>
                 <a href="https://github.com/TextWar/TextWar">
-                    
                     <li class="mdui-list-item mdui-ripple">
                         <svg t="1586484398402" class="icon mdui-icon mdui-list-item-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2321" width="40" height="40">
                             <path d="M512 128C299.872 128 128 299.872 128 512c0 169.6 110.016 313.6 262.624 364.384 19.264 3.52 26.24-8.256 26.24-18.496 0-9.152-0.352-33.28-0.48-65.28-106.88 23.136-129.376-51.488-129.376-51.488-17.504-44.384-42.624-56.256-42.624-56.256-34.88-23.744 2.624-23.232 2.624-23.232 38.496 2.752 58.752 39.488 58.752 39.488 34.24 58.752 89.856 41.76 111.744 32 3.52-24.864 13.504-41.76 24.384-51.36-85.248-9.632-174.88-42.624-174.88-189.76 0-42.016 15.008-76.256 39.488-103.136-3.872-9.6-17.12-48.736 3.744-101.6 0 0 32.256-10.24 105.632 39.36A367.584 367.584 0 0 1 512 313.76c32.64 0.128 65.504 4.352 96.128 12.864 73.376-49.6 105.504-39.36 105.504-39.36 20.992 52.864 7.872 92 3.84 101.6 24.64 26.88 39.392 61.12 39.392 103.136 0 147.52-89.728 179.872-175.232 189.504 13.76 11.744 25.984 35.232 25.984 71.008 0 51.36-0.352 92.736-0.352 105.376 0 10.24 6.848 22.24 26.368 18.496C786.112 825.504 896 681.6 896 512c0-212.128-171.872-384-384-384z" p-id="2322"></path>
@@ -48,6 +69,13 @@
             </ul>
 
         </div>
+        <div class="mdui-dialog" id="dhk">   <!-- 对话框 -->
+            <div class="mdui-dialog-title">呐！这只是一个毫无卵用的对话框~</div>
+            <div class="mdui-dialog-content">好了，现在可以把我关掉了吧~(　o=^•ェ•)o</div>
+            <div class="mdui-dialog-actions">
+                <button class="mdui-btn mdui-ripple" mdui-dialog-close>OK</button>
+            </div>
+        </div>  
         <div class="mdui-container">    <!-- 布局容器 -->
             <div class="mdui-card">
                 <div class="mdui-card-content">
