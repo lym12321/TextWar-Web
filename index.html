@@ -1,94 +1,123 @@
-<!DOCTYPE HTML>
-<!--
- * TextWar
- * https://github.com/TextWar/TextWar
- * @CopyRight TextWar Developing Studio
+<!doctype html>
+<!-- 
+    Author: Lym12321
+    @CopyRight TextWar Developing Studio
+    Made By Mdui.
 -->
-<head lang="zh-CN">
-	<meta http-equiv="content-type" content="text/html;charset=utf-8">
-	<title>TextWar</title>
-	<link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
-	<link rel="Shortcut Icon" href="./img/logo.ico" type="image/x-icon" />
-</head>
-<body>
-<a name="top"></a>
-<div id="wrapper">
-	<!-- start header -->
-    <div id="header">
-        	<div class="row">
-            	<div class="inner">
-        			<center>
-						<!--<h2>Text War</h2>-->
-						<img width="300" height="100" src="https://s1.ax1x.com/2020/04/04/G07J9P.png">
-						<!-- GitHub -->
-						<div align="center">
-							<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/e3d52880ff38df9a72673dabe9fcb266d5314358/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f546578745761722f546578745761723f7374796c653d736f6369616c"><img src="https://camo.githubusercontent.com/e3d52880ff38df9a72673dabe9fcb266d5314358/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f546578745761722f546578745761723f7374796c653d736f6369616c" data-canonical-src="https://img.shields.io/github/forks/TextWar/TextWar?style=social" style="max-width:100%;"></a>
-							<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/4abd6207268a06a5b62bcb72f0ac88580103a61f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f546578745761722f546578745761723f7374796c653d736f6369616c"><img src="https://camo.githubusercontent.com/4abd6207268a06a5b62bcb72f0ac88580103a61f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f546578745761722f546578745761723f7374796c653d736f6369616c" data-canonical-src="https://img.shields.io/github/stars/TextWar/TextWar?style=social" style="max-width:100%;"></a>
-						</div>
-						<div align="center">
-							<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/7c9103411ada60f7b0e5477b0502bc855c5e72c7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f546578745761722f546578745761723f696e636c7564655f70726572656c6561736573"><img src="https://camo.githubusercontent.com/7c9103411ada60f7b0e5477b0502bc855c5e72c7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f546578745761722f546578745761723f696e636c7564655f70726572656c6561736573" data-canonical-src="https://img.shields.io/github/v/release/TextWar/TextWar?include_prereleases" style="max-width:100%;"></a>
-							<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/17f63f473c9d5041e05f98d15e73103e2058538e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c616e6775616765732f636f64652d73697a652f546578745761722f54657874576172"><img src="https://camo.githubusercontent.com/17f63f473c9d5041e05f98d15e73103e2058538e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c616e6775616765732f636f64652d73697a652f546578745761722f54657874576172" data-canonical-src="https://img.shields.io/github/languages/code-size/TextWar/TextWar" style="max-width:100%;"></a>
-							<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/a1b14064e2cf23d7d49542bdfb29c7f5d88e84a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f546578745761722f54657874576172"><img src="https://camo.githubusercontent.com/a1b14064e2cf23d7d49542bdfb29c7f5d88e84a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f546578745761722f54657874576172" data-canonical-src="https://img.shields.io/github/issues/TextWar/TextWar" style="max-width:100%;"></a>
-							<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/2f0654cf637e0cfb6682e4dec89821a1992f4f9e/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6769746875622f546578745761722f546578745761722f62616467652e7376673f6272616e63683d6d6173746572"><img src="https://camo.githubusercontent.com/2f0654cf637e0cfb6682e4dec89821a1992f4f9e/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6769746875622f546578745761722f546578745761722f62616467652e7376673f6272616e63683d6d6173746572" data-canonical-src="https://coveralls.io/repos/github/TextWar/TextWar/badge.svg?branch=master" style="max-width:100%;"></a>
-							<a href="https://hits.dwyl.com/TextWar/TextWar" rel="nofollow">
-							<img src="https://camo.githubusercontent.com/df81ee3ccb062bc9691bf828dbbb7ee3a952af5d/687474703a2f2f686974732e6477796c2e636f6d2f546578745761722f546578745761722e737667" data-canonical-src="https://hits.dwyl.com/TextWar/TextWar.svg" style="max-width:100%;">
-							</a>
-							<a href="https://gitter.im/mytextwar/community?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge)" rel="nofollow">
-							<img src="https://camo.githubusercontent.com/37a43f9a59b4a6adb04acc58cf344c20608c2906/68747470733a2f2f6261646765732e6769747465722e696d2f6d79746578747761722f636f6d6d756e6974792e737667" data-canonical-src="https://badges.gitter.im/mytextwar/community.svg" style="max-width:100%;">
-							</a>
-							<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/747118dde01b2e151e16be8d539f57f19b36abb1/68747470733a2f2f7472617669732d63692e6f72672f546578745761722f546578745761722e7376673f6272616e63683d6d6173746572"><img src="https://camo.githubusercontent.com/747118dde01b2e151e16be8d539f57f19b36abb1/68747470733a2f2f7472617669732d63692e6f72672f546578745761722f546578745761722e7376673f6272616e63683d6d6173746572" data-canonical-src="https://travis-ci.org/TextWar/TextWar.svg?branch=master" style="max-width:100%;"></a>
-							<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/5af67ddc01d11f046adc7c6f5a563306c96985e3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c616e6775616765732f636f756e742f546578745761722f54657874576172"><img src="https://camo.githubusercontent.com/5af67ddc01d11f046adc7c6f5a563306c96985e3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c616e6775616765732f636f756e742f546578745761722f54657874576172" data-canonical-src="https://img.shields.io/github/languages/count/TextWar/TextWar" style="max-width:100%;"></a>
-							<a href="/TextWar/TextWar/blob/master/LICENSE">
-							<img src="https://camo.githubusercontent.com/22afca610e77daea4446f6e4536aaf0576242377/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d54504c2d677265656e" data-canonical-src="https://img.shields.io/badge/license-TPL-green" style="max-width:100%;">
-							</a>
-						</div>
-					</center>
-                </div>
-               </div>
-            <div class="line_1"></div>
-            <div class="row">
-                <div class="meta">
-                    <b>For more information：</b><br>
-                </div>
-                <div class="urls">
-                    <a href="https://github.com/TextWar/TextWar">
-						<svg t="1586147605811" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1954" width="30" height="30"><path d="M950.857143 512q0 143.428571-83.714286 258T650.857143 928.571429q-15.428571 2.857143-22.571429-4t-7.142857-17.142858v-120.571428q0-55.428571-29.714286-81.142857 32.571429-3.428571 58.571429-10.285715t53.714286-22.285714 46.285714-38 30.285714-60T792 489.142857q0-69.142857-45.142857-117.714286 21.142857-52-4.571429-116.571428-16-5.142857-46.285714 6.285714t-52.571429 25.142857l-21.714285 13.714286q-53.142857-14.857143-109.714286-14.857143t-109.714286 14.857143q-9.142857-6.285714-24.285714-15.428571T330.285714 262.571429 281.142857 254.857143q-25.142857 64.571429-4 116.571428-45.142857 48.571429-45.142857 117.714286 0 48.571429 11.714286 85.714286t30 60 46 38.285714 53.714285 22.285714 58.571429 10.285715q-22.857143 20.571429-28 58.857143-12 5.714286-25.714286 8.571428t-32.571428 2.857143-37.428572-12.285714T276.571429 728q-10.857143-18.285714-27.714286-29.714286t-28.285714-13.714285l-11.428572-1.714286q-12 0-16.571428 2.571428t-2.857143 6.571429 5.142857 8 7.428571 6.857143l4 2.857143q12.571429 5.714286 24.857143 21.714285t18 29.142858l5.714286 13.142857q7.428571 21.714286 25.142857 35.142857t38.285714 17.142857 39.714286 4 31.714286-2l13.142857-2.285714q0 21.714286 0.285714 50.857143t0.285714 30.857142q0 10.285714-7.428571 17.142858t-22.857143 4q-132.571429-44-216.285714-158.571429T73.142857 512q0-119.428571 58.857143-220.285714T291.714286 132 512 73.142857t220.285714 58.857143T892 291.714286 950.857143 512z" p-id="1955"></path></svg>
-					</a>
-					<!-- QQ SVG
-					<a href="#">
-						<svg t="1586147273512" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1232" width="30" height="30"><path d="M512 0c282.768 0 512 229.232 512 512 0 282.768-229.232 512-512 512C229.232 1024 0 794.768 0 512 0 229.232 229.232 0 512 0z m5.328 240.064c-96-2.72-173.328 73.44-176 171.344v54.4S272 637.12 272 658.88c0 35.36 10.672 35.36 21.328 24.48l45.344-46.24v10.88A169.488 169.488 0 0 0 384 737.776c-21.328 10.88-56 24.48-56 46.224h368c0-24.48-34.672-35.36-58.672-46.24 26.672-21.76 42.672-54.4 45.344-89.744v-13.6s10.656 13.6 45.328 46.24c13.328 13.6 24 13.6 24-21.76 0-20.976-64.48-181.04-69.072-192.448l-0.256-0.64v-57.12C680 316.208 608 242.784 517.328 240.064z" p-id="1233"></path></svg>					</a>
-					</a>
-					-->
-			   </div>
-            </div>
-            <div class="line_1"></div>
-				
-    </div>
-	<!-- end header -->
-    
-    
-	<!-- start html -->
-    <div id="html">
-    	<div class="row">
+<html>
+    <head>
+        <title>TextWar</title>
+        <!-- 自适应 加上吧 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- 引入MDUI -->
+        <link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+        <script src="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+    </head>
 
-			<div class="inner">
-            	<h4>TEST</h4>
-                <p>
-                <b>testing</b><br>
-                <ol>
-                    <li>test</li>
-                    
-                </ol>
-        	</div>
+    <body class="mdui-theme-primary-indigo mdui-drawer-body-left">    <!-- 主题色indigo -->
+
+        <div class="mdui-toolbar mdui-color-theme mdui-container">  <!-- 工具栏 -->
+            <!-- 工具栏左侧start -->
+            <button id="menu" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></button>
+            <span>TextWar</span>
+            <!-- 工具栏左侧end -->
+
+            <div class="mdui-toolbar-spacer"></div>
+
+            <!-- 工具栏右侧start -->
+            <a target="_blank" href="https://github.com/TextWar/TextWar/">
+                <svg t="1586481717281" class="icon mdui-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2164" width="30" height="30">
+                    <path d="M512 128C299.872 128 128 299.872 128 512c0 169.6 110.016 313.6 262.624 364.384 19.264 3.52 26.24-8.256 26.24-18.496 0-9.152-0.352-33.28-0.48-65.28-106.88 23.136-129.376-51.488-129.376-51.488-17.504-44.384-42.624-56.256-42.624-56.256-34.88-23.744 2.624-23.232 2.624-23.232 38.496 2.752 58.752 39.488 58.752 39.488 34.24 58.752 89.856 41.76 111.744 32 3.52-24.864 13.504-41.76 24.384-51.36-85.248-9.632-174.88-42.624-174.88-189.76 0-42.016 15.008-76.256 39.488-103.136-3.872-9.6-17.12-48.736 3.744-101.6 0 0 32.256-10.24 105.632 39.36A367.584 367.584 0 0 1 512 313.76c32.64 0.128 65.504 4.352 96.128 12.864 73.376-49.6 105.504-39.36 105.504-39.36 20.992 52.864 7.872 92 3.84 101.6 24.64 26.88 39.392 61.12 39.392 103.136 0 147.52-89.728 179.872-175.232 189.504 13.76 11.744 25.984 35.232 25.984 71.008 0 51.36-0.352 92.736-0.352 105.376 0 10.24 6.848 22.24 26.368 18.496C786.112 825.504 896 681.6 896 512c0-212.128-171.872-384-384-384z" p-id="2165" fill="#ffffff"></path>
+                </svg>
+            </a>
+            <!-- 工具栏右侧end -->
         </div>
+        <div class="mdui-drawer mdui-drawer-full-height" id="drawer">   <!-- 抽屉 -->
+            <br>
+            <center><img width="150" height="50" src="https://s1.ax1x.com/2020/04/04/G07J9P.png"></center>
+            <ul class="mdui-list">
+                <a href="https://github.com/TextWar/TextWar">
+                    
+                    <li class="mdui-list-item mdui-ripple">
+                        <svg t="1586484398402" class="icon mdui-icon mdui-list-item-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2321" width="40" height="40">
+                            <path d="M512 128C299.872 128 128 299.872 128 512c0 169.6 110.016 313.6 262.624 364.384 19.264 3.52 26.24-8.256 26.24-18.496 0-9.152-0.352-33.28-0.48-65.28-106.88 23.136-129.376-51.488-129.376-51.488-17.504-44.384-42.624-56.256-42.624-56.256-34.88-23.744 2.624-23.232 2.624-23.232 38.496 2.752 58.752 39.488 58.752 39.488 34.24 58.752 89.856 41.76 111.744 32 3.52-24.864 13.504-41.76 24.384-51.36-85.248-9.632-174.88-42.624-174.88-189.76 0-42.016 15.008-76.256 39.488-103.136-3.872-9.6-17.12-48.736 3.744-101.6 0 0 32.256-10.24 105.632 39.36A367.584 367.584 0 0 1 512 313.76c32.64 0.128 65.504 4.352 96.128 12.864 73.376-49.6 105.504-39.36 105.504-39.36 20.992 52.864 7.872 92 3.84 101.6 24.64 26.88 39.392 61.12 39.392 103.136 0 147.52-89.728 179.872-175.232 189.504 13.76 11.744 25.984 35.232 25.984 71.008 0 51.36-0.352 92.736-0.352 105.376 0 10.24 6.848 22.24 26.368 18.496C786.112 825.504 896 681.6 896 512c0-212.128-171.872-384-384-384z" p-id="2322"></path>
+                        </svg>
+                        <div class="mdui-list-item-content">GitHub</div>
+                    </li>
+                </a>
+            </ul>
 
-        
+        </div>
+        <div class="mdui-container">    <!-- 布局容器 -->
+            <div class="mdui-card">
+                <div class="mdui-card-content">
+                    <center><img width="300" height="100" src="https://s1.ax1x.com/2020/04/04/G07J9P.png"></center>
+                    <!--GitHub medal-->
+                    <div align="center">
+                        <a href="https://github.com/TextWar/TextWar/network/members">
+                            <img src="https://img.shields.io/github/forks/TextWar/TextWar?style=social">
+                        </a>
+                        <a href="https://github.com/TextWar/TextWar/stargazers">
+                            <img src="https://img.shields.io/github/stars/TextWar/TextWar?style=social">
+                        </a>
+                    </div>
+                    <div align="center">
+                        <img src="https://img.shields.io/github/v/release/TextWar/TextWar?include_prereleases">
+                        <img src="https://img.shields.io/github/languages/code-size/TextWar/TextWar">
+                        <a href="https://github.com/TextWar/TextWar/issues">
+                            <img src="https://img.shields.io/github/issues/TextWar/TextWar">
+                        </a>
+                        <img src="https://coveralls.io/repos/github/TextWar/TextWar/badge.svg?branch=master">
+                        <a href="https://hits.dwyl.com/TextWar/TextWar">
+                            <img src="https://hits.dwyl.com/TextWar/TextWar.svg">
+                        </a>
+                     
+                        <a href="https://gitter.im/mytextwar/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)">
+                            <img src="https://badges.gitter.im/mytextwar/community.svg" >
+                        </a>
+                        <a href = "https://travis-ci.org/github/TextWar/TextWar/builds/671445536?utm_source=github_status&utm_medium=notification">
+                            <img src="https://travis-ci.org/TextWar/TextWar.svg?branch=master">
+                        </a>
+                        <a href="https://github.com/TextWar/TextWar/search?l=java">
+                            <img src="https://img.shields.io/github/languages/count/TextWar/TextWar">
+                        </a>
+                        <a href="https://github.com/TextWar/TextWar/blob/master/LICENSE">
+                            <img src="https://img.shields.io/badge/license-TPL-green">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Menu Panel -->
+            <div class="mdui-panel">
+                <div class="mdui-panel-item mdui-panel-item-open">
+                    <div class="mdui-panel-item-header">Team</div>
+                    
+                    <div class="mdui-panel-item-body">
+                        <div class="mdui-list mdui-list-dense">
+                            <a href="https://github.com/MagicLu550" class="mdui-list-item mdui-ripple">MagicLu550</a>
+                            <a href="https://github.com/GunVeda" class="mdui-list-item mdui-ripple">GunVeda</a>
+                            <a href="https://github.com/fafa-junhe" class="mdui-list-item mdui-ripple">fafa-junhe</a>
+                            <a href="https://github.com/YxMingY" class="mdui-list-item mdui-ripple">xMing</a>
+                            <a href="https://github.com/lym12321" class="mdui-list-item mdui-ripple">Lym12321</a>
+                            <a href="https://space.bilibili.com/340501282" class="mdui-list-item mdui-ripple">LaoWang</a>
+                            <a href="https://github.com/Timolop233" class="mdui-list-item mdui-ripple">Timolop233</a>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <center><small>&copy;CopyRight TextWar Developing Studio</small></center>
+        </div>
+    </body>
     
-    </div>
-    <!-- end html -->
-
-    
-</div>
-
-</body>
+    <!-- JavaScript -->
+    <script language="javascript">
+        //抽屉
+        var inst = new mdui.Drawer('#drawer');
+        inst.close();
+        document.getElementById('menu').addEventListener('click', function () {
+            inst.toggle();
+        });
+    </script>
 </html>
